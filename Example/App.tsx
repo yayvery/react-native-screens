@@ -16,6 +16,7 @@ import { ListItem, SettingsSwitch } from './src/shared';
 
 import SimpleNativeStack from './src/screens/SimpleNativeStack';
 import SwipeBackAnimation from './src/screens/SwipeBackAnimation';
+import BottomSheet from './src/screens/BottomSheet';
 import StackPresentation from './src/screens/StackPresentation';
 import HeaderOptions from './src/screens/HeaderOptions';
 import StatusBarExample from './src/screens/StatusBar';
@@ -53,6 +54,11 @@ const SCREENS: Record<
   SwipeBackAnimation: {
     title: 'Swipe Back Animation',
     component: SwipeBackAnimation,
+    type: 'example',
+  },
+  BottomSheet: {
+    title: 'Bottom sheet',
+    component: BottomSheet,
     type: 'example',
   },
   StackPresentation: {

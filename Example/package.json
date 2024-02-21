@@ -15,6 +15,7 @@
     "test-e2e-android": "detox test --configuration android.release --take-screenshots failing"
   },
   "dependencies": {
+    "@gorhom/bottom-sheet": "4.6.1",
     "@react-navigation/bottom-tabs": "^5.11.7",
     "@react-navigation/compat": "^5.3.14",
     "@react-navigation/drawer": "^5.12.3",
